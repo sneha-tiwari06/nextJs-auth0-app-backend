@@ -24,12 +24,13 @@ cd your-repo
 Create a `.env.local` file in the **frontend** directory and add:
 
 ```plaintext
-NEXT_PUBLIC_AUTH0_DOMAIN=your-auth0-domain
-NEXT_PUBLIC_AUTH0_CLIENT_ID=your-auth0-client-id
-NEXT_PUBLIC_AUTH0_CLIENT_SECRET=your-auth0-client-secret
-NEXT_PUBLIC_AUTH0_ISSUER_BASE_URL=https://your-auth0-domain
-NEXT_PUBLIC_AUTH0_AUDIENCE=https://your-auth0-domain/api/v2/
+AUTH0_SECRET=186f4c1ecca6972bcf63e6c59211470298155b9c55b7f4bf926331207550ae1a
+AUTH0_BASE_URL=http://localhost:3000
+AUTH0_ISSUER_BASE_URL=https://dev-yfh62scd3nueps6j.us.auth0.com
+AUTH0_CLIENT_ID=hl1YSsm5CNX7ct41mfyiXZxRuknMqprU
+AUTH0_CLIENT_SECRET=DpjmC1tgmbbGgcn3L2_Wauv-cSVxCPG62IPw4wj-7e261CW_Y-7Fkx5vcHXdeVCh
 NEXT_PUBLIC_BACKEND_URL=http://localhost:5000
+
 ```
 🔹 Replace `your-auth0-domain` with your **Auth0 tenant domain** (e.g., `dev-xyz123.us.auth0.com`)
 
