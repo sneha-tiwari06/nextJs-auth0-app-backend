@@ -43,13 +43,13 @@ Navigate to the `backend` directory and create a `.env` file:
 
 ```plaintext
 PORT=5000
-AUTH0_DOMAIN=your-auth0-domain
-AUTH0_AUDIENCE=https://your-auth0-domain/api/v2/
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
-SMTP_USER=your-email@gmail.com
-SMTP_PASS=your-app-password
-SMTP_SECURE=true
+AUTH0_DOMAIN=dev-yfh62scd3nueps6j.us.auth0.com
+AUTH0_CLIENT_ID=hl1YSsm5CNX7ct41mfyiXZxRuknMqprU
+AUTH0_ISSUER_BASE_URL=https://dev-yfh62scd3nueps6j.us.auth0.com
+AUTH0_CLIENT_SECRET=DpjmC1tgmbbGgcn3L2_Wauv-cSVxCPG62IPw4wj-7e261CW_Y-7Fkx5vcHXdeVCh
+EMAIL_USER=tiwarisneha491@gmail.com
+EMAIL_PASS="vcta qosa ldir xluo"
+
 ```
 🔹 **For Gmail SMTP:** Generate an **App Password** [here](https://myaccount.google.com/apppasswords)
 
